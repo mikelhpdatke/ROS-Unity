@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: file_server
+Description: Description of file_server
+Version: 1.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lfile_services
+Requires: roscpp rospy std_msgs roslib message_runtime

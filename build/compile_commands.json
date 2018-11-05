@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/ais/catkin_ws/src/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
+  "file": "/usr/src/gmock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/gtest/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/gtest/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/file_server",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"file_server\\\" -I/home/ais/catkin_ws/src/build/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/file_server.dir/src/file_server.cpp.o -c /home/ais/catkin_ws/src/file_server/src/file_server.cpp",
+  "file": "/home/ais/catkin_ws/src/file_server/src/file_server.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/mastering_ros_demo_pkg",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mastering_ros_demo_pkg\\\" -I/home/ais/catkin_ws/src/build/devel/include -I/home/ais/catkin_ws/src/mastering_ros_demo_pkg/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv  -g   -std=c++11 -o CMakeFiles/demo_topic_subscriber.dir/src/demo_topic_subscriber.cpp.o -c /home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/demo_topic_subscriber.cpp",
+  "file": "/home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/demo_topic_subscriber.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/mastering_ros_demo_pkg",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mastering_ros_demo_pkg\\\" -I/home/ais/catkin_ws/src/build/devel/include -I/home/ais/catkin_ws/src/mastering_ros_demo_pkg/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv  -g   -std=c++11 -o CMakeFiles/demo_msg_subscriber.dir/src/demo_msg_subscriber.cpp.o -c /home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/demo_msg_subscriber.cpp",
+  "file": "/home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/demo_msg_subscriber.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/mastering_ros_demo_pkg",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mastering_ros_demo_pkg\\\" -I/home/ais/catkin_ws/src/build/devel/include -I/home/ais/catkin_ws/src/mastering_ros_demo_pkg/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv  -g   -std=c++11 -o CMakeFiles/demo_msg_publisher.dir/src/demo_msg_publisher.cpp.o -c /home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/demo_msg_publisher.cpp",
+  "file": "/home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/demo_msg_publisher.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/mastering_ros_demo_pkg",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mastering_ros_demo_pkg\\\" -I/home/ais/catkin_ws/src/build/devel/include -I/home/ais/catkin_ws/src/mastering_ros_demo_pkg/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv  -g   -std=c++11 -o CMakeFiles/demo_topic_publisher.dir/src/demo_topic_publisher.cpp.o -c /home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/demo_topic_publisher.cpp",
+  "file": "/home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/demo_topic_publisher.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/mastering_ros_demo_pkg",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mastering_ros_demo_pkg\\\" -I/home/ais/catkin_ws/src/build/devel/include -I/home/ais/catkin_ws/src/mastering_ros_demo_pkg/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv  -g   -std=c++11 -o CMakeFiles/image_transport_subscriber.dir/src/image_transport_subscriber.cpp.o -c /home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/image_transport_subscriber.cpp",
+  "file": "/home/ais/catkin_ws/src/mastering_ros_demo_pkg/src/image_transport_subscriber.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/lane_detect",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"lane_detect\\\" -Dapi_lane_detection_EXPORTS -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/home/ais/catkin_ws/src/lane_detect/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -std=c++11 -o CMakeFiles/api_lane_detection.dir/src/detectlane.cpp.o -c /home/ais/catkin_ws/src/lane_detect/src/detectlane.cpp",
+  "file": "/home/ais/catkin_ws/src/lane_detect/src/detectlane.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/lane_detect",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"lane_detect\\\" -Dapi_lane_detection_EXPORTS -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/home/ais/catkin_ws/src/lane_detect/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -std=c++11 -o CMakeFiles/api_lane_detection.dir/src/carcontrol.cpp.o -c /home/ais/catkin_ws/src/lane_detect/src/carcontrol.cpp",
+  "file": "/home/ais/catkin_ws/src/lane_detect/src/carcontrol.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/lane_detect",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"lane_detect\\\" -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/home/ais/catkin_ws/src/lane_detect/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/lane_detect.dir/src/main.cpp.o -c /home/ais/catkin_ws/src/lane_detect/src/main.cpp",
+  "file": "/home/ais/catkin_ws/src/lane_detect/src/main.cpp"
+},
+{
+  "directory": "/home/ais/catkin_ws/src/build/video_stream",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"video_stream\\\" -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/home/ais/catkin_ws/src/video_stream/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/video_stream.dir/src/main.cpp.o -c /home/ais/catkin_ws/src/video_stream/src/main.cpp",
+  "file": "/home/ais/catkin_ws/src/video_stream/src/main.cpp"
+}
+]

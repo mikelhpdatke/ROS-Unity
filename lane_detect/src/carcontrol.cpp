@@ -21,6 +21,19 @@ float CarControl::errorAngle(const Point &dst)
     return atan(dx / dy) * 180 / pi;
 }
 
+
+void CarControl::nextAction(float velocity, float angleParam)
+{
+    std_msgs::Float32 angle;
+    std_msgs::Float32 speed;
+
+    angle.data = angleParam;
+    speed.data = velocity;
+
+    steer_publisher.publish(angle);
+    speed_publisher.publish(speed);  
+}
+
 void CarControl::driverCar(const vector<Point> &left, const vector<Point> &right, float velocity)
 {
     int i = left.size() - 11;

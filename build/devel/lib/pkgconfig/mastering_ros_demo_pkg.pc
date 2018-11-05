@@ -1,0 +1,8 @@
+prefix=/home/ais/catkin_ws/src/build/devel
+
+Name: mastering_ros_demo_pkg
+Description: Description of mastering_ros_demo_pkg
+Version: 0.0.0
+Cflags: -I/home/ais/catkin_ws/src/build/devel/include -I/home/ais/catkin_ws/src/mastering_ros_demo_pkg/include
+Libs: -L/home/ais/catkin_ws/src/build/devel/lib 
+Requires: actionlib actionlib_msgs roscpp std_msgs message_runtime

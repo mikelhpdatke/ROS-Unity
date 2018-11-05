@@ -1,7 +1,7 @@
 #include <ros/ros.h>
 #include <image_transport/image_transport.h>
 #include <cv_bridge/cv_bridge.h>
-
+#include <ros/console.h>
 #include <opencv2/highgui/highgui.hpp>
 
 #include "detectlane.h"
@@ -13,17 +13,30 @@ bool STREAM = true;
 VideoCapture capture("video.avi");
 DetectLane *detect;
 CarControl *car;
+int32_t dem = 0;
 
 void imageCallback(const sensor_msgs::ImageConstPtr& msg)
 {
     cv_bridge::CvImagePtr cv_ptr;
     Mat out;
+    //dem++;
+    //ROS_WARN("This is count.. %d", dem);
+    //ROS_WARN("This is count.. %d", dem);
+    //ROS_WARN("This is count.. %d", dem);
+    //ROS_WARN("This is count.. %d", dem);
+    //ROS_WARN("This is count.. %d", dem);
     try
     {
         cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
         cv::imshow("View", cv_ptr->image);
+        cv::waitKey(10);
+        //std::cout<<(cv_ptr->image)<<endl;
         detect->update(cv_ptr->image);
         car->driverCar(detect->getLeftLane(), detect->getRightLane(), 30);
+        //if (dem > 250) car->nextAction(20,-3);
+        //else
+        car->nextAction(20, 3);
+        //ROS_WARN("This is count.. ");
     }
     catch (cv_bridge::Exception& e)
     {
@@ -38,7 +51,6 @@ void videoProcess()
     {
         capture >> src;
         if (src.empty()) break;
-        
         imshow("View", src);
         detect->update(src);
         waitKey(30);
@@ -62,8 +74,7 @@ int main(int argc, char **argv)
 
         ros::NodeHandle nh;
         image_transport::ImageTransport it(nh);
-        image_transport::Subscriber sub = it.subscribe("/unity_image", 1, imageCallback);
-
+        image_transport::Subscriber sub = it.subscribe("unity_image", 1, imageCallback);
         ros::spin();
     } else {
         videoProcess();

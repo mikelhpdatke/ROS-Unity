@@ -21,7 +21,7 @@ public:
     CarControl();
     ~CarControl();
     void driverCar(const vector<Point> &left, const vector<Point> &right, float velocity);
-
+    void nextAction(float velocity, float speed);
 private:
     float errorAngle(const Point &dst);
     ros::NodeHandle node_obj1;

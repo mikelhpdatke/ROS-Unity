@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: mastering_ros_demo_pkg
+Description: Description of mastering_ros_demo_pkg
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: actionlib actionlib_msgs roscpp std_msgs message_runtime
