@@ -267,6 +267,12 @@ actionlib_msgs_DIR:PATH=/opt/ros/kinetic/share/actionlib_msgs/cmake
 //Dependencies for target
 api_lane_detection_LIB_DEPENDS:STATIC=
 
+//Value Computed by CMake
+autonomous_driving_BINARY_DIR:STATIC=/home/ais/catkin_ws/src/build/autonomous_driving-master
+
+//Value Computed by CMake
+autonomous_driving_SOURCE_DIR:STATIC=/home/ais/catkin_ws/src/autonomous_driving-master
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
@@ -356,13 +362,16 @@ lane_detect_BINARY_DIR:STATIC=/home/ais/catkin_ws/src/build/lane_detect
 lane_detect_SOURCE_DIR:STATIC=/home/ais/catkin_ws/src/lane_detect
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/librospack.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
 //Value Computed by CMake
 mastering_ros_demo_pkg_BINARY_DIR:STATIC=/home/ais/catkin_ws/src/build/mastering_ros_demo_pkg
 
 //Value Computed by CMake
 mastering_ros_demo_pkg_SOURCE_DIR:STATIC=/home/ais/catkin_ws/src/mastering_ros_demo_pkg
+
+//The directory containing a CMake configuration file for mavros_msgs.
+mavros_msgs_DIR:PATH=mavros_msgs_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
@@ -408,6 +417,9 @@ sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/kinetic/share/std_srvs/cmake
 
 //Value Computed by CMake
 video_stream_BINARY_DIR:STATIC=/home/ais/catkin_ws/src/build/video_stream
@@ -520,7 +532,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

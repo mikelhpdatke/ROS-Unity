@@ -62,5 +62,5 @@ void CarControl::driverCar(const vector<Point> &left, const vector<Point> &right
     speed.data = velocity;
 
     steer_publisher.publish(angle);
-    speed_publisher.publish(speed);    
-} 
+    speed_publisher.publish(speed);
+}

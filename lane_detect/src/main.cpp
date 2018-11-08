@@ -35,7 +35,7 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg)
         car->driverCar(detect->getLeftLane(), detect->getRightLane(), 30);
         //if (dem > 250) car->nextAction(20,-3);
         //else
-        car->nextAction(20, 3);
+        //car->nextAction(20, 3);
         //ROS_WARN("This is count.. ");
     }
     catch (cv_bridge::Exception& e)

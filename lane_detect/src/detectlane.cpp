@@ -286,8 +286,7 @@ void DetectLane::detectLeftRight(const vector<vector<Point> > &points)
         if (max == 1) break;
 
         posMax.y = prePoint[posMax.x][posMax.y];
-        posMax.x += 1;        
-        
+        posMax.x += 1;
         max--;
     }
 
