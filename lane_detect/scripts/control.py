@@ -26,8 +26,8 @@ class CarControl:
         self.x = 120
         self.y = 320
         self.angle = 0
-        self.pubSteer = rospy.Publisher('/steerAngle', Float32, queue_size=10)
-        self.pubSpeed = rospy.Publisher('/speed', Float32, queue_size=10)
+        self.pubSteer = rospy.Publisher('/Team1_steerAngle', Float32, queue_size=10)
+        self.pubSpeed = rospy.Publisher('/Team1_speed', Float32, queue_size=10)
 
     def errorAngle(self, nextX, nextY):
         x1 = nextX
@@ -67,8 +67,10 @@ class CarControl:
 
 # Instantiate CvBridge
 bridge = CvBridge()
+countImg = 0
 
 def image_callback(msg):
+    global countImg
     print("Received an image!")
     try:
         # Convert your ROS Image message to OpenCV2
@@ -78,8 +80,9 @@ def image_callback(msg):
     except CvBridgeError, e:
         print(e)
     else:
+        (countImg) = (countImg) + 1
         # Save your OpenCV2 image as a jpeg 
-        cv2.imwrite('camera_image.jpeg', cv2_img)
+        cv2.imwrite('images/' + str(countImg) + '.jpeg', cv2_img)
 
 def main():
     rospy.init_node('image_listener')

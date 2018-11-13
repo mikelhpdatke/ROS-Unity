@@ -36,7 +36,7 @@ mo terminal moi va nhap:
 
 cd ~/catkin_ws
 source devel/setup.bash
-rosrun image_transport republish compressed in:=unity_image raw out:=image_decompressed
+rosrun image_transport republish compressed in:=Team1_image raw out:=image_decompressed
 
 mo terminal moi va nhap:
 rosrun lane_dectect control.py
